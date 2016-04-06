@@ -1,6 +1,6 @@
 
 class pi_profiles::ssl (
-  certs = {}
+  $certs = {}
 ){
   include ::letsencrypt
 
